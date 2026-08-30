@@ -39,9 +39,9 @@ namespace ThreadStackTest
 
         public List<object> _Property;
 
-
-
-
+        /// <summary>
+        /// Care about the things you have to return: Production-run real sample
+        /// </summary>
         static void Main()
         {
             var test = new Program().MyProperty;
